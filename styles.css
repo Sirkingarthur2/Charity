@@ -1,17 +1,17 @@
 .header {
     text-align: center;
     background-color: #d4d2bf;
-    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border: 3px outset #a8a16c;
-    border-radius: 9px;
-    margin-bottom: 70px;
-    width: 88%;
+    margin-bottom: 20px;
+    width: 100%;
 }
 
 .header-container {
     display: flex;
     justify-content: center; 
-    align-items: center; 
+    align-items: center;
 }
 
 .title {
@@ -26,14 +26,16 @@
 .hr {
     border: solid 3px;
     background-color: #333a56;
-    width: 80%;
+    width: 90%;
     border-radius: 50px;
-    margin-top: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-bottom: 5px;
 }
 
 .body {
     background-color: #52658F;
+    margin: 0;
 }
 
 .section-content {
@@ -41,22 +43,27 @@
     justify-content: center;
     font-size: 28px;
     color: black;
-    margin-top: 40px;
-    margin-bottom: 45px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.table-container {
+    display: flex;
+    align-items: center;
 }
 
 .table {
     border: 3px solid black;
     padding: 5px;
-    width: 600px;
-    height: auto;
+    width: 100%;
+    height: 80%;
     color: rgb(87, 170, 119);
     margin-left: 70px;
 }
 
-td {
+.td {
     border: 2px solid #000000; /* Add border to each cell */
     padding: 5px; /* Optional: adds space within cells */
     font-weight: bold;
@@ -68,38 +75,36 @@ td {
     align-items: flex-start;
 }
 
+.table-image-container {
+    display: flex;
+    justify-content: center;
+}
+
 .images {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    width: 1000px;
+    flex-direction: column;
+    width: auto;
     height: auto;
-    margin-right: 70px;
 }
 
 .image {
-    width: 300px;
+    width: 70%;
     height: auto;
-    margin: 10px;
     border: 2px outset rgb(206, 250, 250);
     border-top-left-radius: 100px;
     border-bottom-right-radius: 70px;
-}
-
-.footer-container {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .footer {
     text-align: center;
     background-color: #d4d2bf;
-    padding: 0;
-    width: 78%;
+    width: 100%;
     height: 40px;
     border: 3px inset rgba(255, 255, 255, 0.615);
-    border-radius: 4px;
 }
 
 .footer-content {
